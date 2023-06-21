@@ -4,7 +4,6 @@ import { GoogleAnalytics, event } from "nextjs-google-analytics";
 export default function home() {
   return (
     <div>
-       <GoogleAnalytics trackPageViews  gaMeasurementId="G-Z58QZRHSBM"/> 
       <ul>
         <li>
           <Link href="/home">Home</Link>
@@ -18,7 +17,7 @@ export default function home() {
       </ul>
       <button
         onClick={() => {
-          event("submit_form", {
+          event("event", {
             category: "Contact",
             label: "Xin chao toi la cong" + new Date().toDateString(),
           });

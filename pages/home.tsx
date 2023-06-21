@@ -1,9 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import { event } from "nextjs-google-analytics";
+import { GoogleAnalytics, event } from "nextjs-google-analytics";
 export default function home() {
   return (
     <div>
+       <GoogleAnalytics trackPageViews  gaMeasurementId="G-Z58QZRHSBM"/> 
       <ul>
         <li>
           <Link href="/home">Home</Link>

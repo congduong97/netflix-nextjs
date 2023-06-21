@@ -17,7 +17,7 @@ export default function home() {
       </ul>
       <button
         onClick={() => {
-          event("test_home", {
+          event("home-press", {
             category: "home dey",
             label: "Xin chao toi la cong" + new Date().toDateString(),
           });

@@ -17,8 +17,8 @@ export default function home() {
       </ul>
       <button
         onClick={() => {
-          event("event", {
-            category: "Contact",
+          event("test_home", {
+            category: "home dey",
             label: "Xin chao toi la cong" + new Date().toDateString(),
           });
         }}

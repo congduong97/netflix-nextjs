@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   usePagesViews()
   return (
     <>
-      <GoogleAnalytics trackPageViews /> 
+      <GoogleAnalytics trackPageViews  gaMeasurementId="G-Z58QZRHSBM"/> 
       <Component {...pageProps} />
     </>
   );

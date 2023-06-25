@@ -11,10 +11,10 @@ export default function contact() {
           //   category: "home dey",
           //   label: "Xin chao toi la cong" + new Date().toDateString(),
           // });
-          window.parent.postMessage({ event: 'home-press',category: 'hi2',label:'"Xin chao toi la cong" + new Date().toDateString(),'}, '*')
+          window.parent.postMessage({ event: 'contact-press',category: 'contact-hi2',label:'"Xin chao toi la cong" + new Date().toDateString(),'}, '*')
         }}
       >
-        Press Home
+        Press contact
       </button>
     </div>
   );
